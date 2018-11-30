@@ -1,0 +1,26 @@
+{
+    "name": "hotelgest/rest-api-sdk-php",
+    "keywords": ["hotelgest", "pms"],
+    "description": "Hotelgest's PHP SDK for REST APIs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luminemotus",
+            "email": "luminemotus@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "hotelgest\\kit\\": "src/hotelgest/kit/"
+        }
+    },
+    "minimum-stability": "stable"
+}
