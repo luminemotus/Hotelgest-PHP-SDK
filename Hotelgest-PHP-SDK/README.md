@@ -26,7 +26,7 @@ $hotel = new KitHotelgest\kit\KitHotelgest( $user, $password );
 
 
 $returnBooking = $hotel->set_booking($booking);
-
+```
 
 --------
 
